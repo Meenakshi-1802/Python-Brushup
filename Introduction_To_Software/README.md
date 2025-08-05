@@ -48,6 +48,9 @@ Software is mainly divided into two categories:
 - Handles **server-side logic** and **database operations**  
 - Examples: Databases, Files, HDFS (Big Data Storage)
 
+<img width="1024" height="676" alt="image" src="https://github.com/user-attachments/assets/6df4861b-0e60-4b64-ae06-4d09887a25a3" />
+
+
 > 📌 Python is a **Back-End Programming / Scripting Language** used to develop server-side applications.
 
 ---
