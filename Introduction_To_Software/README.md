@@ -35,6 +35,8 @@ Software is mainly divided into two categories:
 3. Has built-in **libraries** for communication between applications and hardware  
 4. Every program must **link** with the OS library before execution  
 
+<img width="761" height="94" alt="Screenshot 2025-08-01 184945" src="https://github.com/user-attachments/assets/caf6b9f6-e48b-4af6-9fc1-deb44d72de0f" />
+
 ---
 
 ## 🧩 Application Software
