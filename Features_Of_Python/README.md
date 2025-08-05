@@ -49,15 +49,13 @@ Python is a powerful, beginner-friendly, and versatile programming language. Bel
 ```python
 
 ---
-
-## 🔹 4. Python Collections
+🔹 4. Python Collections
 Used to store and manage large volumes of data at the server side.
 
 Enhances application performance.
 
 Supports lists, sets, tuples, dictionaries, and advanced collections (collections module).
-
-## 🔹 5. Object-Oriented Programming (OOP)
+ 🔹 5. Object-Oriented Programming (OOP)
 Python supports both procedure-oriented and object-oriented programming.
 
 Supports:
