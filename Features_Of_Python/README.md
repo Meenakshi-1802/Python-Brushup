@@ -46,9 +46,6 @@ Python supports both procedure-oriented and object-oriented programming.
 
 Manages errors gracefully without crashing the program.
 
-python
-Copy
-Edit
 try:
     result = 10 / 0
 except ZeroDivisionError as e:
@@ -59,9 +56,6 @@ except ZeroDivisionError as e:
 
 Python supports reading/writing files easily.
 
-python
-Copy
-Edit
 with open('sample.txt', 'r') as file:
     content = file.read()
 
@@ -72,9 +66,6 @@ Supports concurrent execution using threads.
 
 Useful for parallel, real-time, and background tasks.
 
-python
-Copy
-Edit
 import threading  
 def task():  
     print("Running in thread")  
@@ -88,9 +79,6 @@ Supports socket programming and RESTful APIs.
 
 Libraries: socket, requests, asyncio
 
-python
-Copy
-Edit
 import socket  
 s = socket.socket()  
 s.connect(("example.com", 80))
@@ -102,9 +90,6 @@ Supports integration with databases like MySQL, PostgreSQL, SQLite, Oracle, etc.
 
 Libraries: sqlite3, mysql.connector, psycopg2
 
-python
-Copy
-Edit
 import sqlite3  
 conn = sqlite3.connect('data.db')  
 cursor = conn.cursor()
@@ -132,9 +117,6 @@ wxPython
 
 Kivy
 
-python
-Copy
-Edit
 import tkinter as tk  
 window = tk.Tk()  
 window.title("My App")  
@@ -147,9 +129,6 @@ Allows splitting large programs into reusable modules and packages.
 
 Promotes clean code and better maintenance.
 
-python
-Copy
-Edit
 # mymodule.py  
 def greet():  
     print("Hello!")  
