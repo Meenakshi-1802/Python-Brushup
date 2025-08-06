@@ -25,7 +25,8 @@ This guide shows how to run a Python script using Visual Studio Code.
 
 Here's a sample output after running the code in the terminal:
 
-![Uploading Screenshot 2025-08-06 223437.png…]()
+<img width="1914" height="1018" alt="Screenshot 2025-08-06 223437" src="https://github.com/user-attachments/assets/99274036-bf2f-439a-bd3e-56bc24a32716" />
+
 
 
 ✅ As shown above, the output is printed in the terminal correctly.
