@@ -1,6 +1,6 @@
 # 📘 Chapter 5: Python Installation and Versions
 
-This chapter will guide you through the complete setup of Python on your system. It includes downloading and installing Python, understanding the two main modes (Interactive and Script), running Python from the command line, using IDLE, performing basic operations (addition, subtraction, multiplication, and division), and installing PyCharm IDE.
+This chapter will guide you through the complete setup of Python on your system. It includes downloading and installing Python, understanding the two main modes (Interactive and Script), running Python from the command line, using IDLE, performing basic operations (addition, subtraction, multiplication, and division), and installing PyCharm & VS Code for development.
 
 ---
 
@@ -97,10 +97,10 @@ These operations are the foundation of any logic building in Python and are esse
 - Move the setup file to the `C:\` drive.
 - Right-click → Select **Run as Administrator** → Click **Yes**.
 - Follow the installation wizard:
-  - Click **Next**.
-  - Check all boxes (like creating a shortcut, associating `.py` files, etc.).
-  - Choose a folder for installation (e.g., JetBrains).
-  - Click **Install**.
+  - Click **Next**
+  - Check all boxes (like creating a shortcut, associating `.py` files, etc.)
+  - Choose a folder for installation (e.g., JetBrains)
+  - Click **Install**
 
 ### Step 3: Launch PyCharm
 
@@ -121,26 +121,58 @@ These operations are the foundation of any logic building in Python and are esse
 
 ## 🎨 10. Customizing PyCharm for Better Use
 
-- **Theme**: Go to `File → Settings → Appearance` → Choose a theme (e.g., Win10 Lite).
-- **Font Size**: `File → Settings → Editor → Font` → Set a larger font (e.g., 20).
-- **Color Scheme**: `Editor → Color Scheme → Classic Light`.
+- **Appearance Theme**: File → Settings → Appearance → Choose `Win10 Lite`
+- **Font Size**: File → Settings → Editor → Font → Set font size (e.g., 20)
+- **Color Scheme**: Editor → Color Scheme → Choose `Classic Light`
 
 ---
 
 ## 🔍 11. Enabling IntelliSense in PyCharm
 
-- Go to `File → Settings → Plugins`.
-- Search for and install **PyLint**.
-- Restart PyCharm to activate auto-suggestions and error checking.
+- File → Settings → Plugins
+- Search for and install **PyLint**
+- Restart PyCharm to activate auto-suggestions and error checking
 
 ---
 
 ## 📝 12. Writing Your First Python File in PyCharm
 
-- Right-click on your project folder → Select `New → Python File`.
-- Give it a name (e.g., `test.py`).
-- Start writing your Python program inside the file.
-- Right-click the file → Select `Run`.
+- Right-click on your project folder → Select `New → Python File`
+- Name the file (e.g., `test.py`)
+- Open the file and start writing your Python program
+- Right-click on the file → Select `Run`
+
+---
+
+## 🧩 13. Setting Up VS Code (Visual Studio Code)
+
+VS Code is a lightweight, beginner-friendly code editor that supports Python and has built-in Git integration.
+
+### 🔽 Step 1: Download & Install
+
+- Visit: https://code.visualstudio.com/
+- Click on **Download for Windows**
+- Run the installer and complete the installation with default settings
+
+### 🔌 Step 2: Install Python Extension
+
+- Open VS Code
+- Click on the **Extensions icon** (left sidebar)
+- Search for `Python` by Microsoft
+- Click **Install**
+
+### 🧠 Step 3: Optional – Git Integration
+
+To push code to GitHub directly from VS Code:
+
+1. Install **Git for Windows**: https://git-scm.com/
+2. Restart your system after installation
+3. Open VS Code and load your Python project folder
+4. Click on the **Source Control icon**
+5. Sign in to GitHub via the bottom-left account icon
+6. Initialize repository, commit your changes, and push to GitHub
+
+✅ Now you're coding, tracking changes, and uploading to GitHub — all from VS Code!
 
 ---
 
@@ -154,9 +186,11 @@ These operations are the foundation of any logic building in Python and are esse
 | Manage Packages                  | pip               | Install libraries like numpy, pandas, etc.   |
 | Run Scripts from Command Line    | CMD               | Execute Python files easily                  |
 | Install and Use PyCharm          | JetBrains PyCharm | Write, run, and manage large Python projects |
-| Customize Editor                 | PyCharm Settings  | Improve readability and productivity         |
+| Install and Use VS Code          | VS Code           | Lightweight editor + GitHub integration      |
+| Customize Editor                 | Settings Panel    | Improve readability and productivity         |
 | Enable IntelliSense              | PyLint Plugin     | Auto-suggestions and error detection         |
 
 ---
 
-🎯 You’re now ready to start writing Python code confidently! Practice daily, explore the syntax, and try solving small problems. The journey begins here!
+🎯 You’re now fully set up and ready to explore the world of Python development — from writing your first line of code to uploading real projects to GitHub!
+
