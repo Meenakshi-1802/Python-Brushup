@@ -1,0 +1,1 @@
+a = 10;b = 5.2;c = "Hello";print(a,b,c)
