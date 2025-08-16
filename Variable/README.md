@@ -16,5 +16,7 @@ Variables are **containers that store data** in memory. They have a **name** and
 ## 🔹 Examples  
 
 x = 10          # Integer
+
 name = "Ram"    # String
+
 is_student = True  # Boolean
