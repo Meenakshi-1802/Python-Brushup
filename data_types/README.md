@@ -10,7 +10,7 @@ y = 3.14      # float
 z = "Hello"   # str
 
 ## Primitive vs Non-Primitive Data Types
-1. Primitive Data Types
+# 1. Primitive Data Types
 
 The most basic or fundamental data types.
 
@@ -30,7 +30,7 @@ bool → Boolean values (True/False)
 
 str → Strings (text data)
 
-2. Non-Primitive (or Derived / Advanced) Data Types
+# 2. Non-Primitive (or Derived / Advanced) Data Types
 
 Built using primitive data types.
 
