@@ -87,3 +87,75 @@ When you create a variable in Python:
 - Python is **100% object-oriented** — all values are objects.
 
 ---
+
+# 💾 RAM vs Hard Disk  
+
+Memory management is about how a computer **stores, organizes, and uses data** efficiently.  
+The two main types of storage involved are **RAM (Random Access Memory)** and **Hard Disk**.  
+
+---
+
+## 🔹 RAM (Random Access Memory)  
+- **Type:** Volatile memory (data is lost when power is off).  
+- **Speed:** Very fast compared to hard disk.  
+- **Usage:** Stores data and instructions that the CPU needs *right now*.  
+- **Capacity:** Smaller (GBs).  
+
+### ✅ Characteristics  
+- Temporary storage for running programs.  
+- Allows quick read/write operations.  
+- Directly accessed by CPU.  
+
+**Example:**  
+When you open a program (e.g., MS Word), it is loaded from the Hard Disk into RAM so it runs faster.  
+
+---
+
+## 🔹 Hard Disk (HDD/SSD)  
+- **Type:** Non-volatile memory (data stays even when power is off).  
+- **Speed:** Slower than RAM, but much larger.  
+- **Usage:** Stores permanent files, software, operating system, documents, etc.  
+- **Capacity:** Larger (GBs to TBs).  
+
+### ✅ Characteristics  
+- Long-term storage of data.  
+- Data must be loaded from Hard Disk into RAM before execution.  
+- Slower access compared to RAM, but cheaper and bigger.  
+
+---
+
+## 🔹 How They Work Together (Memory Management)  
+1. **Program Execution**  
+   - When you run a program, the **OS loads it from Hard Disk → into RAM**.  
+   - CPU executes instructions from RAM (faster access).  
+
+2. **Virtual Memory**  
+   - If RAM is full, OS uses part of the Hard Disk as **swap space (virtual RAM)**.  
+   - This prevents system crashes but is slower.  
+
+3. **Cache Management**  
+   - CPU has its own cache (even faster than RAM).  
+   - Frequently used data is moved closer to CPU for speed.  
+
+---
+
+## 🔹 Comparison Table  
+
+| Feature          | RAM (Random Access Memory) | Hard Disk (HDD/SSD) |
+|------------------|----------------------------|----------------------|
+| Type             | Volatile                   | Non-volatile |
+| Speed            | Very fast (nanoseconds)    | Slower (milliseconds) |
+| Size             | Smaller (GBs)              | Larger (GBs–TBs) |
+| Cost             | More expensive per GB      | Cheaper per GB |
+| Usage            | Temporary program execution | Permanent data storage |
+| Data Retention   | Lost after power off       | Retained after power off |
+
+---
+
+## 📌 Summary  
+- **RAM** → Fast, temporary, used for running programs.  
+- **Hard Disk** → Slow, permanent, used for long-term storage.  
+- **Memory Management** ensures smooth transfer between Hard Disk → RAM → CPU.  
+
+---
+
