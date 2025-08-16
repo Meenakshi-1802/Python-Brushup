@@ -6,7 +6,9 @@ In Python, every value has a data type.
 
 Example:  
 x = 10        # int
+
 y = 3.14      # float
+
 z = "Hello"   # str
 
 ## Primitive vs Non-Primitive Data Types
