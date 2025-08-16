@@ -7,6 +7,9 @@ It organizes memory into different sections based on usage.
 ---
 
 ## 2. Python memory is divided into different areas:
+
+<img width="630" height="674" alt="Screenshot 2025-08-16 185044" src="https://github.com/user-attachments/assets/0617165c-a8f2-4f40-bed0-bb719459d173" />
+
 - **Stack Memory** → Stores reference variables and function call data.
 - **Heap Memory** → Stores actual objects.
 - **Global Memory** → Stores global variables.
@@ -29,13 +32,13 @@ When you create a variable in Python:
 
 ---
 
-## 2. Higher Order Memory Space
+## 4. Higher Order Memory Space
 - Stores all **command-line arguments**.
 - Stores **operating system environment variables**.
 
 ---
 
-## 4. Stack Memory Space
+## 5. Stack Memory Space
 - Stores **local variables**.
 - Memory allocation follows **LIFO (Last In, First Out)**.
 - Grows automatically as long as sharable memory is available.
@@ -48,12 +51,12 @@ When you create a variable in Python:
 
 ---
 
-## 5. Shared Memory Space
+## 6. Shared Memory Space
 - Can be shared by both **stack** and **heap**.
 
 ---
 
-## 6. Heap Memory Space
+## 7. Heap Memory Space
 - Used for **dynamic memory management**.
 - Memory allocation and deallocation happen **at runtime**.
 - Grows automatically as long as sharable memory is available.
@@ -62,25 +65,25 @@ When you create a variable in Python:
 
 ---
 
-## 7. Global Memory Space
+## 8. Global Memory Space
 - Stores **global variables**.
 - Size depends on the number of global variables declared in the Python application.
 
 ---
 
-## 8. Static Memory Space
+## 9. Static Memory Space
 - Stores **static variables**.
 - Size is fixed according to the number of static variables declared in the Python application.
 
 ---
 
-## 9. Text Memory Space
+## 10. Text Memory Space
 - Contains all **Python program instructions**.
 - Stores **Python libraries**.
 
 ---
 
-## 10. Key Points
+## 11. Key Points
 - **Stack** contains all reference variables.
 - **Heap** contains objects that reference variables point to.
 - Memory management in Python is handled **automatically**.
