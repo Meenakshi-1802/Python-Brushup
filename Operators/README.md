@@ -76,7 +76,7 @@ Work on bits.
 
 ---
 
-# Short Hand Assignment Operators
+### 6. Short Hand Assignment Operators
 These are simplified assignment operations.
 
 
