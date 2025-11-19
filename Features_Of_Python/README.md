@@ -6,43 +6,43 @@ Python is a powerful, beginner-friendly, and versatile programming language. Bel
 
 ## ✅ 15 Key Features of Python
 
-1. **Platform Independent**  
+### 1. **Platform Independent**  
    - Python scripts can run on any operating system (Windows, Linux, macOS).
    - There is no `.exe` file in Python; it contains only pure Python code.
    - The Python interpreter is OS-dependent, but Python scripts are OS-independent.
    - ✅ Write Once, Run Anywhere
      
 
-2. **Portable**  
+### 2. **Portable**  
    - Python applications are portable — the same code runs on different OSes without modification.
    - Unlike C, Python code does not rely on OS-specific syntax.
      
 
-3. **Dynamically Typed**  
+### 3. **Dynamically Typed**  
    - No need to declare variable types explicitly.
    - Python decides the type at runtime.  
-   ```python
+  
    x = 10       # Integer  
    x = "Hello"  # Now it's a string
     
 
-4. **Python Collections**
+### 4. **Python Collections**
 
-Used to store and manage large volumes of data.
+- Used to store and manage large volumes of data.
 
-Supports: lists, tuples, sets, dictionaries, and the collections module.
+- Supports: lists, tuples, sets, dictionaries, and the collections module.
 
-Improves performance in server-side applications.
-
-
-5. **Object-Oriented Programming (OOP)**
-
-Supports encapsulation, abstraction, inheritance (including multiple inheritance), and polymorphism.
-
-Python supports both procedure-oriented and object-oriented programming.
+- Improves performance in server-side applications.
 
 
-6. **Exception Handling**
+### 5. **Object-Oriented Programming (OOP)**
+
+- Supports encapsulation, abstraction, inheritance (including multiple inheritance), and polymorphism.
+
+- Python supports both procedure-oriented and object-oriented programming.
+
+
+### 6. **Exception Handling**
 
 Manages errors gracefully without crashing the program.
 
@@ -52,7 +52,7 @@ except ZeroDivisionError as e:
     print("Error:", e)
 
     
-7. **I/O Streams and File Handling**
+### 7. **I/O Streams and File Handling**
 
 Python supports reading/writing files easily.
 
@@ -60,11 +60,11 @@ with open('sample.txt', 'r') as file:
     content = file.read()
 
     
-8. **Multi-Threading**
+### 8. **Multi-Threading**
 
-Supports concurrent execution using threads.
+- Supports concurrent execution using threads.
 
-Useful for parallel, real-time, and background tasks.
+- Useful for parallel, real-time, and background tasks.
 
 import threading  
 def task():  
@@ -73,49 +73,49 @@ thread = threading.Thread(target=task)
 thread.start()
 
 
-9. **Network Programming**
+### 9. **Network Programming**
 
-Supports socket programming and RESTful APIs.
+- Supports socket programming and RESTful APIs.
 
-Libraries: socket, requests, asyncio
+- Libraries: socket, requests, asyncio
 
 import socket  
 s = socket.socket()  
 s.connect(("example.com", 80))
 
 
-10. **Database Access**
+### 10. **Database Access**
 
-Supports integration with databases like MySQL, PostgreSQL, SQLite, Oracle, etc.
+- Supports integration with databases like MySQL, PostgreSQL, SQLite, Oracle, etc.
 
-Libraries: sqlite3, mysql.connector, psycopg2
+- Libraries: sqlite3, mysql.connector, psycopg2
 
 import sqlite3  
 conn = sqlite3.connect('data.db')  
 cursor = conn.cursor()
 
 
-11. **Rich Standard Library**
+### 11. **Rich Standard Library**
 
 Comes with built-in modules for math, regex, file I/O, web services, threading, testing, GUI, and more.
 
-12. **Embeddable**
+### 12. **Embeddable**
 
-Python can be embedded into other languages like C/C++.
+- Python can be embedded into other languages like C/C++.
 
-Also allows calling C/C++ code from Python scripts.
+- Also allows calling C/C++ code from Python scripts.
 
-13. **GUI Programming**
+### 13. **GUI Programming**
 
-Supports graphical user interface development using:
+- Supports graphical user interface development using:
 
-Tkinter
+- Tkinter
 
-PyQt
+- PyQt
 
-wxPython
+- wxPython
 
-Kivy
+- Kivy
 
 import tkinter as tk  
 window = tk.Tk()  
@@ -123,11 +123,11 @@ window.title("My App")
 window.mainloop()
 
 
-14. **Modular Programming**
+### 14. **Modular Programming**
 
-Allows splitting large programs into reusable modules and packages.
+- Allows splitting large programs into reusable modules and packages.
 
-Promotes clean code and better maintenance.
+- Promotes clean code and better maintenance.
 
 # mymodule.py  
 def greet():  
@@ -138,7 +138,7 @@ import mymodule
 mymodule.greet()
 
 
-15. **Free and Open Source**
+### 15. **Free and Open Source**
 
 Python is freely available and open-source under FLOSS (Free/Libre and Open Source Software).
 
