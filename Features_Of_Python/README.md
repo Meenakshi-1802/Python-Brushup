@@ -129,11 +129,11 @@ window.mainloop()
 
 - Promotes clean code and better maintenance.
 
-# mymodule.py  
+mymodule.py  
 def greet():  
     print("Hello!")  
 
-# main.py  
+main.py  
 import mymodule  
 mymodule.greet()
 
